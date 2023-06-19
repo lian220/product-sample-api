@@ -21,8 +21,8 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
 	implementation("org.springframework.boot:spring-boot-starter-validation")
-	implementation("io.springfox:springfox-swagger-ui:2.9.2")
-	implementation("io.springfox:springfox-swagger2:2.9.2")
+	implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.0.2")
+	implementation("io.springfox:springfox-boot-starter:3.0.0")
 	runtimeOnly("org.postgresql:postgresql")
 
 	implementation("org.springframework.boot:spring-boot-starter-log4j2")

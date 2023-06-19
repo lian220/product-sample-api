@@ -2,11 +2,12 @@ package lian.sample.productapi.model.domain;
 
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.NotNull;
 import lombok.Getter;
 
 @Getter
 public class Product {
-    @NotEmpty
+    @NotEmpty(message = "상품명을 입력해주세요.")
     private String name;
     @Min(1)
     private int quantity;

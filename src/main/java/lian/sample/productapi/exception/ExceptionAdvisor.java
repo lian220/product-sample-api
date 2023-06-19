@@ -1,30 +1,31 @@
-//package lian.sample.productapi.exception;
-//
-//import org.springframework.validation.BindingResult;
-//import org.springframework.validation.FieldError;
-//import org.springframework.web.bind.MethodArgumentNotValidException;
-//import org.springframework.web.bind.annotation.ControllerAdvice;
-//import org.springframework.web.bind.annotation.ExceptionHandler;
-//import org.springframework.web.bind.annotation.RestController;
-//import org.springframework.web.bind.annotation.RestControllerAdvice;
-//
-//@RestControllerAdvice
-//public class ExceptionAdvisor {
-//    @ExceptionHandler(MethodArgumentNotValidException.class)
-//    public String processValidationError(MethodArgumentNotValidException exception) {
-//        BindingResult bindingResult = exception.getBindingResult();
-//
-//        StringBuilder builder = new StringBuilder();
-//        for (FieldError fieldError : bindingResult.getFieldErrors()) {
-//            builder.append("[");
-//            builder.append(fieldError.getField());
-//            builder.append("](은)는 ");
-//            builder.append(fieldError.getDefaultMessage());
-//            builder.append(" 입력된 값: [");
-//            builder.append(fieldError.getRejectedValue());
-//            builder.append("]");
-//        }
-//
-//        return builder.toString();
-//    }
-//}
+package lian.sample.productapi.exception;
+
+import lian.sample.productapi.model.response.ResponseData;
+import org.springframework.http.ResponseEntity;
+import org.springframework.http.converter.HttpMessageNotReadableException;
+import org.springframework.web.bind.MethodArgumentNotValidException;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.RestControllerAdvice;
+
+@RestControllerAdvice
+public class ExceptionAdvisor {
+    @ExceptionHandler(MethodArgumentNotValidException.class)
+    public ResponseEntity<ResponseData> processValidationError(MethodArgumentNotValidException exception) {
+        return ResponseEntity.ok(
+                ResponseData.builder()
+                        .resultCode("9999")
+                        .message(exception.getBindingResult().getAllErrors().get(0).getDefaultMessage())
+                        .build()
+        );
+    }
+
+    @ExceptionHandler(HttpMessageNotReadableException.class)
+    public ResponseEntity<ResponseData> processValidationError(HttpMessageNotReadableException exception) {
+        return ResponseEntity.ok(
+                ResponseData.builder()
+                        .resultCode("9998")
+                        .message(exception.getCause().getLocalizedMessage())
+                        .build()
+        );
+    }
+}

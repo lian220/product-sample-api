@@ -22,13 +22,14 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
 	implementation("org.springframework.boot:spring-boot-starter-validation")
 
-	implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.1.0")
-	runtimeOnly("org.postgresql:postgresql")
-
+	implementation("org.springframework.boot:spring-boot-starter-aop")
 	implementation("org.springframework.boot:spring-boot-starter-log4j2")
 	implementation("org.slf4j:slf4j-api:2.0.7")
 	compileOnly("org.projectlombok:lombok")
 	annotationProcessor("org.projectlombok:lombok")
+
+	implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.1.0")
+	runtimeOnly("org.postgresql:postgresql")
 
 	developmentOnly("org.springframework.boot:spring-boot-devtools")
 

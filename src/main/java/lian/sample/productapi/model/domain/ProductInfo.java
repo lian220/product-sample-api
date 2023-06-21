@@ -3,8 +3,14 @@ package lian.sample.productapi.model.domain;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotEmpty;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+import java.time.Instant;
 
 @Getter
+@Setter
+@NoArgsConstructor
 public class ProductInfo {
     @NotEmpty(message = "상품명을 입력해주세요.")
     private String name;
@@ -14,6 +20,10 @@ public class ProductInfo {
     private long price;
     private String description;
     private boolean isUsed;
+
+    private Instant created;
+    private Instant updated;
+    private Instant deleted;
 
     //detail
     private int maxChooseQuantity;

@@ -28,7 +28,7 @@ public class CommonLogHandler {
     @Before("controller() || customErrorLog()")
     public void validationAdvice(JoinPoint joinPoint) {
         MDC.put("trace_id", UUID.randomUUID().toString());
-        log.info("REQUEST TRACING_ID -> {}", MDC.get("trace_id"));
+        log.info("REQUEST TRACING_ID -> {}, run method -> {}", MDC.get("trace_id"), joinPoint.getSignature().getName());
 
         Object[] args = joinPoint.getArgs();
         for (Object arg : args) {

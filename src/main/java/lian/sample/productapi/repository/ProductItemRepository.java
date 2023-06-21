@@ -5,4 +5,6 @@ import org.springframework.data.repository.Repository;
 
 public interface ProductItemRepository extends Repository<ProductItem, Long> {
     ProductItem save(ProductItem productItem);
+
+    ProductItem findByProductItemId(long productProductId);
 }

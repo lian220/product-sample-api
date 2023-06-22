@@ -1,5 +1,6 @@
 package lian.sample.productapi.model.domain;
 
+import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotEmpty;
 import lombok.Getter;
@@ -12,6 +13,7 @@ import java.time.Instant;
 @Setter
 @NoArgsConstructor
 public class ProductInfo {
+    @Schema(description = "상품명", nullable = false, example = "바나나")
     @NotEmpty(message = "상품명을 입력해주세요.")
     private String name;
     @Min(1)

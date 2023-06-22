@@ -1,6 +1,5 @@
 package lian.sample.productapi.model.entiity;
 
-import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 import lombok.*;
 import org.springframework.data.annotation.CreatedDate;

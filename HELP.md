@@ -8,6 +8,7 @@ REST API의 기본적인 CRUD 기능이 있으며,
  - AOP, MDC, ExceptionHandler 를 통한 로깅 처리
  - query와 command를 분리하여 사용하고자함 (repository 분리 구현 x) 
 
+## Todo:
 
 [//]: # (* [Official Gradle documentation]&#40;https://docs.gradle.org&#41;)
 

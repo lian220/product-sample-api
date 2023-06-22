@@ -241,3 +241,198 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 [2023-06-22 12:07:30] WARN com.zaxxer.hikari.pool.HikariPool(HikariPool.java:804) - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=34m37s97ms722?s900ns).
 [2023-06-22 12:20:55] WARN com.zaxxer.hikari.pool.HikariPool(HikariPool.java:804) - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m24s406ms988?s100ns).
 [2023-06-22 12:37:04] WARN com.zaxxer.hikari.pool.HikariPool(HikariPool.java:804) - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m9s282ms663?s200ns).
+[2023-06-22 13:18:59] WARN com.zaxxer.hikari.pool.HikariPool(HikariPool.java:804) - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m24s469ms689?s500ns).
+[2023-06-22 13:31:51] INFO lian.sample.productapi.exception.CommonLogHandler(CommonLogHandler.java:31) - REQUEST TRACING_ID -> 7c58176a-be14-487e-a112-2456beb8b6f5, run method -> getProduct
+[2023-06-22 13:32:02] INFO lian.sample.productapi.exception.CommonLogHandler(CommonLogHandler.java:31) - REQUEST TRACING_ID -> fc9547c7-9a53-42bf-bee3-cb6ef76019d0, run method -> getProduct
+[2023-06-22 13:34:07] INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener(LocalDevToolsAutoConfiguration.java:211) - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+[2023-06-22 13:34:07] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Pausing ProtocolHandler ["http-nio-8080"]
+[2023-06-22 13:34:07] INFO org.apache.catalina.core.StandardService(DirectJDKLog.java:173) - Stopping service [Tomcat]
+[2023-06-22 13:34:07] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[2023-06-22 13:34:07] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Stopping ProtocolHandler ["http-nio-8080"]
+[2023-06-22 13:34:07] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Destroying ProtocolHandler ["http-nio-8080"]
+[2023-06-22 13:34:07] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:650) - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-06-22 13:34:07] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:350) - HikariPool-1 - Shutdown initiated...
+[2023-06-22 13:34:07] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:352) - HikariPool-1 - Shutdown completed.
+[2023-06-22 13:34:07] INFO lian.sample.productapi.ProductApiApplication(StartupInfoLogger.java:51) - Starting ProductApiApplication using Java 17.0.3 with PID 12492 (C:\Users\dlaeh\workSpaces\test-sample\product-api\build\classes\java\main started by dlaeh in C:\Users\dlaeh\workSpaces\test-sample\product-api)
+[2023-06-22 13:34:07] INFO lian.sample.productapi.ProductApiApplication(SpringApplication.java:639) - The following 1 profile is active: "local"
+[2023-06-22 13:34:08] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:138) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-06-22 13:34:08] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:208) - Finished Spring Data repository scanning in 27 ms. Found 2 JPA repository interfaces.
+[2023-06-22 13:34:08] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:108) - Tomcat initialized with port(s): 8080 (http)
+[2023-06-22 13:34:08] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[2023-06-22 13:34:08] INFO org.apache.catalina.core.StandardService(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2023-06-22 13:34:08] INFO org.apache.catalina.core.StandardEngine(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/10.1.8]
+[2023-06-22 13:34:08] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2023-06-22 13:34:08] INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext(ServletWebServerApplicationContext.java:291) - Root WebApplicationContext: initialization completed in 765 ms
+[2023-06-22 13:34:08] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-06-22 13:34:08] INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator(BytecodeProviderInitiator.java:53) - HHH000021: Bytecode provider name : bytebuddy
+[2023-06-22 13:34:08] INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo(SpringPersistenceUnitInfo.java:87) - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2023-06-22 13:34:08] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:110) - HikariPool-2 - Starting...
+[2023-06-22 13:34:08] INFO com.zaxxer.hikari.pool.HikariPool(HikariPool.java:565) - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@96780b5
+[2023-06-22 13:34:08] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:123) - HikariPool-2 - Start completed.
+[2023-06-22 13:34:08] INFO org.hibernate.orm.dialect(DialectFactoryImpl.java:93) - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@4d816207
+[2023-06-22 13:34:08] INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator(BytecodeProviderInitiator.java:53) - HHH000021: Bytecode provider name : bytebuddy
+[2023-06-22 13:34:09] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-06-22 13:34:09] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-06-22 13:34:09] WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration(JpaBaseConfiguration.java:231) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2023-06-22 13:34:09] INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer(OptionalLiveReloadServer.java:59) - LiveReload server is running on port 35729
+[2023-06-22 13:34:09] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[2023-06-22 13:34:09] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:220) - Tomcat started on port(s): 8080 (http) with context path ''
+[2023-06-22 13:34:09] INFO lian.sample.productapi.ProductApiApplication(StartupInfoLogger.java:57) - Started ProductApiApplication in 2.173 seconds (process running for 16489.154)
+[2023-06-22 13:34:10] INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener(ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+[2023-06-22 13:34:11] INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener(LocalDevToolsAutoConfiguration.java:211) - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+[2023-06-22 13:34:11] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Pausing ProtocolHandler ["http-nio-8080"]
+[2023-06-22 13:34:11] INFO org.apache.catalina.core.StandardService(DirectJDKLog.java:173) - Stopping service [Tomcat]
+[2023-06-22 13:34:11] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Stopping ProtocolHandler ["http-nio-8080"]
+[2023-06-22 13:34:11] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Destroying ProtocolHandler ["http-nio-8080"]
+[2023-06-22 13:34:11] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:650) - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-06-22 13:34:11] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:350) - HikariPool-2 - Shutdown initiated...
+[2023-06-22 13:34:11] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:352) - HikariPool-2 - Shutdown completed.
+[2023-06-22 13:34:11] INFO lian.sample.productapi.ProductApiApplication(StartupInfoLogger.java:51) - Starting ProductApiApplication using Java 17.0.3 with PID 12492 (C:\Users\dlaeh\workSpaces\test-sample\product-api\build\classes\java\main started by dlaeh in C:\Users\dlaeh\workSpaces\test-sample\product-api)
+[2023-06-22 13:34:11] INFO lian.sample.productapi.ProductApiApplication(SpringApplication.java:639) - The following 1 profile is active: "local"
+[2023-06-22 13:34:11] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:138) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-06-22 13:34:11] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:208) - Finished Spring Data repository scanning in 14 ms. Found 2 JPA repository interfaces.
+[2023-06-22 13:34:11] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:108) - Tomcat initialized with port(s): 8080 (http)
+[2023-06-22 13:34:11] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[2023-06-22 13:34:11] INFO org.apache.catalina.core.StandardService(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2023-06-22 13:34:11] INFO org.apache.catalina.core.StandardEngine(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/10.1.8]
+[2023-06-22 13:34:11] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2023-06-22 13:34:11] INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext(ServletWebServerApplicationContext.java:291) - Root WebApplicationContext: initialization completed in 420 ms
+[2023-06-22 13:34:12] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-06-22 13:34:12] INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator(BytecodeProviderInitiator.java:53) - HHH000021: Bytecode provider name : bytebuddy
+[2023-06-22 13:34:12] INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo(SpringPersistenceUnitInfo.java:87) - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2023-06-22 13:34:12] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:110) - HikariPool-3 - Starting...
+[2023-06-22 13:34:12] INFO com.zaxxer.hikari.pool.HikariPool(HikariPool.java:565) - HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@133709df
+[2023-06-22 13:34:12] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:123) - HikariPool-3 - Start completed.
+[2023-06-22 13:34:12] INFO org.hibernate.orm.dialect(DialectFactoryImpl.java:93) - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@72b2f1dc
+[2023-06-22 13:34:12] INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator(BytecodeProviderInitiator.java:53) - HHH000021: Bytecode provider name : bytebuddy
+[2023-06-22 13:34:12] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-06-22 13:34:12] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-06-22 13:34:12] WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration(JpaBaseConfiguration.java:231) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2023-06-22 13:34:12] INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer(OptionalLiveReloadServer.java:59) - LiveReload server is running on port 35729
+[2023-06-22 13:34:12] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[2023-06-22 13:34:12] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:220) - Tomcat started on port(s): 8080 (http) with context path ''
+[2023-06-22 13:34:12] INFO lian.sample.productapi.ProductApiApplication(StartupInfoLogger.java:57) - Started ProductApiApplication in 1.129 seconds (process running for 16491.807)
+[2023-06-22 13:34:12] INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener(ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+[2023-06-22 13:34:14] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-06-22 13:34:14] INFO org.springframework.web.servlet.DispatcherServlet(FrameworkServlet.java:532) - Initializing Servlet 'dispatcherServlet'
+[2023-06-22 13:34:14] INFO org.springframework.web.servlet.DispatcherServlet(FrameworkServlet.java:554) - Completed initialization in 1 ms
+[2023-06-22 13:34:14] INFO org.springdoc.api.AbstractOpenApiResource(AbstractOpenApiResource.java:371) - Init duration for springdoc-openapi is: 207 ms
+[2023-06-22 13:34:54] INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener(LocalDevToolsAutoConfiguration.java:211) - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[2023-06-22 13:34:54] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Pausing ProtocolHandler ["http-nio-8080"]
+[2023-06-22 13:34:54] INFO org.apache.catalina.core.StandardService(DirectJDKLog.java:173) - Stopping service [Tomcat]
+[2023-06-22 13:34:54] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[2023-06-22 13:34:54] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Stopping ProtocolHandler ["http-nio-8080"]
+[2023-06-22 13:34:54] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Destroying ProtocolHandler ["http-nio-8080"]
+[2023-06-22 13:34:54] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:650) - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-06-22 13:34:54] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:350) - HikariPool-3 - Shutdown initiated...
+[2023-06-22 13:34:54] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:352) - HikariPool-3 - Shutdown completed.
+[2023-06-22 13:34:54] INFO lian.sample.productapi.ProductApiApplication(StartupInfoLogger.java:51) - Starting ProductApiApplication using Java 17.0.3 with PID 12492 (C:\Users\dlaeh\workSpaces\test-sample\product-api\build\classes\java\main started by dlaeh in C:\Users\dlaeh\workSpaces\test-sample\product-api)
+[2023-06-22 13:34:54] INFO lian.sample.productapi.ProductApiApplication(SpringApplication.java:639) - The following 1 profile is active: "local"
+[2023-06-22 13:34:54] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:138) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-06-22 13:34:54] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:208) - Finished Spring Data repository scanning in 11 ms. Found 2 JPA repository interfaces.
+[2023-06-22 13:34:54] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:108) - Tomcat initialized with port(s): 8080 (http)
+[2023-06-22 13:34:54] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[2023-06-22 13:34:54] INFO org.apache.catalina.core.StandardService(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2023-06-22 13:34:54] INFO org.apache.catalina.core.StandardEngine(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/10.1.8]
+[2023-06-22 13:34:54] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2023-06-22 13:34:54] INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext(ServletWebServerApplicationContext.java:291) - Root WebApplicationContext: initialization completed in 296 ms
+[2023-06-22 13:34:54] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-06-22 13:34:54] INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator(BytecodeProviderInitiator.java:53) - HHH000021: Bytecode provider name : bytebuddy
+[2023-06-22 13:34:54] INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo(SpringPersistenceUnitInfo.java:87) - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2023-06-22 13:34:54] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:110) - HikariPool-4 - Starting...
+[2023-06-22 13:34:55] INFO com.zaxxer.hikari.pool.HikariPool(HikariPool.java:565) - HikariPool-4 - Added connection org.postgresql.jdbc.PgConnection@19b94320
+[2023-06-22 13:34:55] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:123) - HikariPool-4 - Start completed.
+[2023-06-22 13:34:55] INFO org.hibernate.orm.dialect(DialectFactoryImpl.java:93) - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@500d2f1
+[2023-06-22 13:34:55] INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator(BytecodeProviderInitiator.java:53) - HHH000021: Bytecode provider name : bytebuddy
+[2023-06-22 13:34:55] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-06-22 13:34:55] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-06-22 13:34:55] WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration(JpaBaseConfiguration.java:231) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2023-06-22 13:34:55] INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer(OptionalLiveReloadServer.java:59) - LiveReload server is running on port 35729
+[2023-06-22 13:34:55] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[2023-06-22 13:34:55] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:220) - Tomcat started on port(s): 8080 (http) with context path ''
+[2023-06-22 13:34:55] INFO lian.sample.productapi.ProductApiApplication(StartupInfoLogger.java:57) - Started ProductApiApplication in 0.74 seconds (process running for 16534.517)
+[2023-06-22 13:34:55] INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener(ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+[2023-06-22 13:34:56] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-06-22 13:34:56] INFO org.springframework.web.servlet.DispatcherServlet(FrameworkServlet.java:532) - Initializing Servlet 'dispatcherServlet'
+[2023-06-22 13:34:56] INFO org.springframework.web.servlet.DispatcherServlet(FrameworkServlet.java:554) - Completed initialization in 0 ms
+[2023-06-22 13:34:57] INFO org.springdoc.api.AbstractOpenApiResource(AbstractOpenApiResource.java:371) - Init duration for springdoc-openapi is: 66 ms
+[2023-06-22 13:38:00] INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener(LocalDevToolsAutoConfiguration.java:211) - Restarting due to 8 class path changes (0 additions, 8 deletions, 0 modifications)
+[2023-06-22 13:38:00] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Pausing ProtocolHandler ["http-nio-8080"]
+[2023-06-22 13:38:00] INFO org.apache.catalina.core.StandardService(DirectJDKLog.java:173) - Stopping service [Tomcat]
+[2023-06-22 13:38:00] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[2023-06-22 13:38:00] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Stopping ProtocolHandler ["http-nio-8080"]
+[2023-06-22 13:38:00] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Destroying ProtocolHandler ["http-nio-8080"]
+[2023-06-22 13:38:00] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:650) - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-06-22 13:38:00] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:350) - HikariPool-4 - Shutdown initiated...
+[2023-06-22 13:38:00] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:352) - HikariPool-4 - Shutdown completed.
+[2023-06-22 13:38:00] INFO lian.sample.productapi.ProductApiApplication(StartupInfoLogger.java:51) - Starting ProductApiApplication using Java 17.0.3 with PID 12492 (C:\Users\dlaeh\workSpaces\test-sample\product-api\build\classes\java\main started by dlaeh in C:\Users\dlaeh\workSpaces\test-sample\product-api)
+[2023-06-22 13:38:00] INFO lian.sample.productapi.ProductApiApplication(SpringApplication.java:639) - The following 1 profile is active: "local"
+[2023-06-22 13:38:00] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:138) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-06-22 13:38:00] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:208) - Finished Spring Data repository scanning in 7 ms. Found 2 JPA repository interfaces.
+[2023-06-22 13:38:01] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:108) - Tomcat initialized with port(s): 8080 (http)
+[2023-06-22 13:38:01] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[2023-06-22 13:38:01] INFO org.apache.catalina.core.StandardService(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2023-06-22 13:38:01] INFO org.apache.catalina.core.StandardEngine(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/10.1.8]
+[2023-06-22 13:38:01] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2023-06-22 13:38:01] INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext(ServletWebServerApplicationContext.java:291) - Root WebApplicationContext: initialization completed in 205 ms
+[2023-06-22 13:38:01] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-06-22 13:38:01] INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator(BytecodeProviderInitiator.java:53) - HHH000021: Bytecode provider name : bytebuddy
+[2023-06-22 13:38:01] INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo(SpringPersistenceUnitInfo.java:87) - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2023-06-22 13:38:01] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:110) - HikariPool-5 - Starting...
+[2023-06-22 13:38:01] INFO com.zaxxer.hikari.pool.HikariPool(HikariPool.java:565) - HikariPool-5 - Added connection org.postgresql.jdbc.PgConnection@64b5572a
+[2023-06-22 13:38:01] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:123) - HikariPool-5 - Start completed.
+[2023-06-22 13:38:01] INFO org.hibernate.orm.dialect(DialectFactoryImpl.java:93) - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@3c631dd
+[2023-06-22 13:38:01] INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator(BytecodeProviderInitiator.java:53) - HHH000021: Bytecode provider name : bytebuddy
+[2023-06-22 13:38:01] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-06-22 13:38:01] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-06-22 13:38:01] WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration(JpaBaseConfiguration.java:231) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2023-06-22 13:38:01] INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer(OptionalLiveReloadServer.java:59) - LiveReload server is running on port 35729
+[2023-06-22 13:38:01] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[2023-06-22 13:38:01] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:220) - Tomcat started on port(s): 8080 (http) with context path ''
+[2023-06-22 13:38:01] INFO lian.sample.productapi.ProductApiApplication(StartupInfoLogger.java:57) - Started ProductApiApplication in 0.633 seconds (process running for 16720.584)
+[2023-06-22 13:38:01] INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener(ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+[2023-06-22 13:38:03] INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener(LocalDevToolsAutoConfiguration.java:211) - Restarting due to 8 class path changes (8 additions, 0 deletions, 0 modifications)
+[2023-06-22 13:38:03] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Pausing ProtocolHandler ["http-nio-8080"]
+[2023-06-22 13:38:03] INFO org.apache.catalina.core.StandardService(DirectJDKLog.java:173) - Stopping service [Tomcat]
+[2023-06-22 13:38:03] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Stopping ProtocolHandler ["http-nio-8080"]
+[2023-06-22 13:38:03] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Destroying ProtocolHandler ["http-nio-8080"]
+[2023-06-22 13:38:03] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:650) - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-06-22 13:38:03] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:350) - HikariPool-5 - Shutdown initiated...
+[2023-06-22 13:38:03] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:352) - HikariPool-5 - Shutdown completed.
+[2023-06-22 13:38:03] INFO lian.sample.productapi.ProductApiApplication(StartupInfoLogger.java:51) - Starting ProductApiApplication using Java 17.0.3 with PID 12492 (C:\Users\dlaeh\workSpaces\test-sample\product-api\build\classes\java\main started by dlaeh in C:\Users\dlaeh\workSpaces\test-sample\product-api)
+[2023-06-22 13:38:03] INFO lian.sample.productapi.ProductApiApplication(SpringApplication.java:639) - The following 1 profile is active: "local"
+[2023-06-22 13:38:03] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:138) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-06-22 13:38:03] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate(RepositoryConfigurationDelegate.java:208) - Finished Spring Data repository scanning in 13 ms. Found 2 JPA repository interfaces.
+[2023-06-22 13:38:03] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:108) - Tomcat initialized with port(s): 8080 (http)
+[2023-06-22 13:38:03] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[2023-06-22 13:38:03] INFO org.apache.catalina.core.StandardService(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2023-06-22 13:38:03] INFO org.apache.catalina.core.StandardEngine(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/10.1.8]
+[2023-06-22 13:38:03] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2023-06-22 13:38:03] INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext(ServletWebServerApplicationContext.java:291) - Root WebApplicationContext: initialization completed in 236 ms
+[2023-06-22 13:38:03] INFO org.hibernate.jpa.internal.util.LogHelper(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-06-22 13:38:03] INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator(BytecodeProviderInitiator.java:53) - HHH000021: Bytecode provider name : bytebuddy
+[2023-06-22 13:38:03] INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo(SpringPersistenceUnitInfo.java:87) - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2023-06-22 13:38:03] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:110) - HikariPool-6 - Starting...
+[2023-06-22 13:38:03] INFO com.zaxxer.hikari.pool.HikariPool(HikariPool.java:565) - HikariPool-6 - Added connection org.postgresql.jdbc.PgConnection@7eaec3d0
+[2023-06-22 13:38:03] INFO com.zaxxer.hikari.HikariDataSource(HikariDataSource.java:123) - HikariPool-6 - Start completed.
+[2023-06-22 13:38:03] INFO org.hibernate.orm.dialect(DialectFactoryImpl.java:93) - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@4c85e241
+[2023-06-22 13:38:03] INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator(BytecodeProviderInitiator.java:53) - HHH000021: Bytecode provider name : bytebuddy
+[2023-06-22 13:38:03] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator(JtaPlatformInitiator.java:51) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-06-22 13:38:03] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean(AbstractEntityManagerFactoryBean.java:437) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-06-22 13:38:03] WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration(JpaBaseConfiguration.java:231) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2023-06-22 13:38:03] INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer(OptionalLiveReloadServer.java:59) - LiveReload server is running on port 35729
+[2023-06-22 13:38:03] INFO org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[2023-06-22 13:38:03] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java:220) - Tomcat started on port(s): 8080 (http) with context path ''
+[2023-06-22 13:38:03] INFO lian.sample.productapi.ProductApiApplication(StartupInfoLogger.java:57) - Started ProductApiApplication in 0.649 seconds (process running for 16723.002)
+[2023-06-22 13:38:03] INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener(ConditionEvaluationDeltaLoggingListener.java:63) - Condition evaluation unchanged
+[2023-06-22 13:38:06] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-06-22 13:38:06] INFO org.springframework.web.servlet.DispatcherServlet(FrameworkServlet.java:532) - Initializing Servlet 'dispatcherServlet'
+[2023-06-22 13:38:06] INFO org.springframework.web.servlet.DispatcherServlet(FrameworkServlet.java:554) - Completed initialization in 1 ms
+[2023-06-22 13:38:07] INFO org.springdoc.api.AbstractOpenApiResource(AbstractOpenApiResource.java:371) - Init duration for springdoc-openapi is: 68 ms
+[2023-06-22 14:24:51] WARN com.zaxxer.hikari.pool.HikariPool(HikariPool.java:804) - HikariPool-6 - Thread starvation or clock leap detected (housekeeper delta=27m17s74ms131?s300ns).
+[2023-06-22 14:42:49] WARN com.zaxxer.hikari.pool.HikariPool(HikariPool.java:804) - HikariPool-6 - Thread starvation or clock leap detected (housekeeper delta=14m28s333ms43?s200ns).
+[2023-06-22 15:21:54] WARN com.zaxxer.hikari.pool.HikariPool(HikariPool.java:804) - HikariPool-6 - Thread starvation or clock leap detected (housekeeper delta=25m5s47ms441?s200ns).
+[2023-06-22 15:24:11] WARN com.zaxxer.hikari.pool.HikariPool(HikariPool.java:804) - HikariPool-6 - Thread starvation or clock leap detected (housekeeper delta=1m16s327ms68?s800ns).
+[2023-06-22 15:39:43] WARN com.zaxxer.hikari.pool.HikariPool(HikariPool.java:804) - HikariPool-6 - Thread starvation or clock leap detected (housekeeper delta=13m32s802ms956?s100ns).
+[2023-06-22 16:13:53] WARN com.zaxxer.hikari.pool.HikariPool(HikariPool.java:804) - HikariPool-6 - Thread starvation or clock leap detected (housekeeper delta=6m9s288?s100ns).
+[2023-06-22 16:53:11] WARN com.zaxxer.hikari.pool.HikariPool(HikariPool.java:804) - HikariPool-6 - Thread starvation or clock leap detected (housekeeper delta=7m17s759ms514?s300ns).

@@ -3,11 +3,11 @@ spring:
     activate:
       on-profile: local
 
-  datasource:
-    url: jdbc:postgresql://localhost:5432/postgres
-    driverClassName: org.postgresql.Driver
-    username: root
-    password: password
+#  datasource:
+#    url: jdbc:postgresql://localhost:5432/postgres
+#    driverClassName: org.postgresql.Driver
+#    username: root
+#    password: password
 
   jpa:
     show_sql: true
